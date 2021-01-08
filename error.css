@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: #2f3640;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+hr
+{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 31%;
+    border: 2px solid whitesmoke;
+    box-shadow: 4px 3px 0 #7A7A7A;
+}
+
+p{
+    font-size : 1.5em;
+}
+
+.title{
+    margin: 18% auto;
+    position: relative;
+}
+
+.titlepart{
+    padding: 0;
+    margin: 0 auto;
+    font-size: 6em;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: .1em;
+    text-shadow: 4px 3px 0 #7A7A7A;
+}
+
+#titlep{
+    font-size: 2.4em;
+    transform: translateY(120%);
+    text-shadow: 2.5px 2px 0 #7A7A7A;
+}
+#titleh2{
+    color: white;
+    font-size: 2em;
+    transform: translateY(960%);
+    text-shadow: -1.8px 2.7px  0 #7A7A7A;
+}
+
+#titleglyph
+{
+    color: white;
+    font-size: 4em;
+    transform: translateY(500%);
+    text-shadow: -1.5px 4px  0 #7A7A7A;
+}
+
+@media only screen and (max-width: 1000px){
+
+    .title{
+        margin: 60% auto;
+        position: relative;
+    }
+    
+    .title p{
+        font-size: 3em;
+        transform: translateY(240%);
+    }
+
+    .title h2{
+        font-size: 8em;
+        transform: translateY(650%);
+    }
+
+    hr
+    {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 45px;
+        width:60%;
+        border: 2px solid whitesmoke;
+        box-shadow: 4px 3px 0 #7A7A7A;
+    }
+
+    p{
+        font-size : 3em;
+    }
+ 
+    ul{
+        font-size : 3em;
+    }
+
+    #titleglyph
+    {
+        color: white;
+        font-size: 4em;
+        transform: translateY(700%);
+        text-shadow: -1.5px 4px  0 #7A7A7A;
+    }
+
+    #titleh2{
+        color: white;
+        font-size: 2em;
+        transform: translateY(1400%);
+        text-shadow: -1.8px 2.7px  0 #7A7A7A;
+    }
+}

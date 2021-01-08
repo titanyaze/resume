@@ -1,0 +1,492 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: #2f3640;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+hr
+{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 31%;
+    border: 2px solid whitesmoke;
+    box-shadow: 4px 3px 0 #7A7A7A;
+}
+
+hr.gap{
+    transform: translateY(300%);
+}
+p{
+    font-size : 1.5em;
+}
+
+ul{
+    font-size : 1.4em;
+}
+
+span{
+    background: #ffffff00;
+}
+.containerwidth{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.space{
+    margin-bottom: 30px;
+}
+
+.title{
+    margin: 18% auto;
+    position: relative;
+    padding-bottom: 90px;
+}
+
+.titlepart{
+    padding: 0;
+    margin: 0 auto;
+    font-size: 6em;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: .1em;
+    text-shadow: 4px 3px 0 #7A7A7A;
+}
+
+#titlep{
+    font-size: 2.4em;
+    transform: translateY(120%);
+    text-shadow: 2.5px 2px 0 #7A7A7A;
+}
+#titleh2{
+    color: white;
+    font-size: 2em;
+    transform: translateY(930%);
+    text-shadow: -1.8px 2.7px  0 #7A7A7A;
+}
+
+#hrwelcome{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 55px;
+    width: 32%;
+    border: 2px solid whitesmoke;
+}
+
+hr.info{
+    border: 1px solid whitesmoke;
+    box-shadow: 4px 3px 0 #7A7A7A;
+    margin: 0 auto;
+    width: 99%;
+}
+
+span.info{
+    background: #262626;
+}
+
+span.infointeractive{
+    background: #262626;
+}
+
+hr.noshadow{
+    box-shadow: 0px 0px 0 #7A7A7A;
+}
+#titleglyph
+{
+    color: white;
+    font-size: 4em;
+    transform: translateY(500%);
+    text-shadow: -1.5px 4px  0 #7A7A7A;
+}
+
+.sectionbg
+{
+    width: 100%;
+    
+}
+
+#caro1{
+    
+}
+
+#caro2{
+
+}
+.sectionbg.carouselspacing{
+    margin-top: 40px;
+}
+.section{
+    width: 95%;
+    margin: 0 auto;
+    color: white;
+}
+
+.infobox{
+    margin: 20px auto;
+}
+
+.infopic{
+    margin: 40px auto;
+    padding: 10px 0px;
+}
+.middlealign{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.6em;
+}
+
+.info.redhat{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/**Images for info sections **/
+.dot {
+    height:125px;
+    width: 125px;
+    background-size: contain;
+    background-color: #262626;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+.dot.csharpimg{
+    background-image: url("images/Csharp.png");
+}
+.dot.javaimg{
+    background-image: url("images/Java.png")
+}
+
+.dot.pythonimg{
+    background-image: url("images/Python.png")
+}
+
+.dot.nodeJS{
+    border-radius: 30%;
+    background-image: url("images/NodeJS.png")
+}
+
+.dot.unityimg{
+    border-radius: 10%;
+    background-image: url("images/Unity3D.png");
+}
+
+.dot.HTML{
+    background-image: url("images/HTML5.png");
+}
+
+.dot.mongoDB{
+    background-image: url("images/MongoDB.png");
+}
+
+.dot.maya{
+    background-image: url("images/Maya.png");
+    border-radius: 10%;
+}
+
+.dot.blender{
+    background-image: url("images/Blender.png");
+}
+.dot.painter{
+    background-image: url("images/Painter.png");
+}
+
+.dot.photoshop{
+    background-image: url("images/Photoshop.png");
+    border-radius: 10%;
+}
+
+.dot.affinityphoto{
+    background-image: url("images/Affinityphoto.png");
+    border-radius: 10%;
+}
+
+.dot.Ddash{
+    background-image: url("images/DDash.png");
+    border-radius: 20%;
+}
+
+.dot.tankwar{
+    background-image: url("images/Tankwars.png");
+}
+
+.dot.ThreeD{
+    background-color: whitesmoke;
+    background-image: url("images/3D.png");
+    border-radius: 20%;
+}
+
+/** End for image info section **/
+
+
+.infotext{
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.grey{
+    background: #2f3640;
+}
+
+#typedid{
+    background: #ffffff00;
+}
+
+
+#typename{
+    background: #ffffff00;
+}
+.hovertext{
+
+}
+
+h2{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    text-shadow: 2.5px 2px 0 #7A7A7A;
+}
+h2::before{
+    content: "";
+    display:block;
+    margin: 0 auto;
+    width: 95%;
+    height:2px;
+    background: whitesmoke;
+    transform: translateY(20px);
+    z-index: -2;
+    position: absolute;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    text-shadow: 2.5px 2px 0 #7A7A7A;
+}
+
+.container.landingbackground{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.fullBackground {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/DDash/1.png");
+  }
+
+.controlbox{
+    width: 22%;
+    border: 2px solid whitesmoke;
+    border-radius: 0px 10px 0px 11px;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: -6px 10px 0px 0px rgba(0,0,0,0.75);
+    background-color:#262626
+}
+.controlbox.open{
+
+}
+.controlbox.software{
+
+}
+.controlbox.interactive{
+
+}
+.leftalign{
+    text-align: left;
+    border-left: 3px solid whitesmoke;
+    list-style-type: square;
+}
+
+.rightalign{
+    text-align: right;
+}
+
+.oxygen
+{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.4em;
+}
+.portfoliobox
+{
+    margin: 0 auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.viewbutton{
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    color: #262626;
+}
+
+
+@media only screen and (max-width: 1000px){
+
+    .title{
+        margin: 60% auto;
+        position: relative;
+    }
+    
+    .title p{
+        font-size: 3em;
+        transform: translateY(240%);
+    }
+
+    .title h2{
+        font-size: 8em;
+        transform: translateY(650%);
+    }
+
+    hr
+    {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 45px;
+        width:54%;
+        border: 2px solid whitesmoke;
+        box-shadow: 4px 3px 0 #7A7A7A;
+    }
+    .section{
+        margin: 0 auto;
+        margin-top: 25%;
+        color: white;
+    }
+
+    .controlbox{
+        width: 22%;
+        border: 2px solid whitesmoke;
+        border-radius: 0px 10px 0px 11px;
+        margin: 0 auto;
+        margin-top: 25px;
+        text-align: center;
+        box-shadow: -6px 10px 0px 0px rgba(0,0,0,0.75);
+        background-color:#262626
+    }
+
+    p{
+        font-size : 3em;
+    }
+ 
+    ul{
+        font-size : 3em;
+    }
+
+    h2{
+        font-size: 6em;
+    }
+
+    h2::before{
+        content: "";
+        display:block;
+        margin: 0 auto;
+        width: 90%;
+        height:2px;
+        background: whitesmoke;
+        transform: translateY(50px);
+        z-index: -2;
+        position: absolute;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 3.5em;
+        font-family: 'Red Hat Display', sans-serif;
+        text-shadow: 2.5px 2px 0 #7A7A7A;
+    }
+    .middlealign{
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 3.5em;
+    }
+
+    .oxygen
+    {
+        font-size: 3em;
+    }
+    .rightalign{
+        text-align: center;
+    }
+    .leftalign{
+        border-left: 0px solid whitesmoke;
+        text-align: center;
+    }
+
+    #hrwelcome{
+        position: relative;
+        margin: 0 auto;
+        margin-top: 55px;
+        width: 57%;
+        border: 2px solid whitesmoke;
+    }
+
+    #titleglyph
+    {
+        color: white;
+        font-size: 4em;
+        transform: translateY(700%);
+        text-shadow: -1.5px 4px  0 #7A7A7A;
+    }
+
+    #titleh2{
+        color: white;
+        font-size: 2em;
+        transform: translateY(1400%);
+        text-shadow: -1.8px 2.7px  0 #7A7A7A;
+    }
+
+    .controlbox{
+        width: 90%;
+        border: 2px solid whitesmoke;
+        border-radius: 0px 10px 0px 11px;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: -6px 10px 0px 0px rgba(0,0,0,0.75);
+        margin: 60px auto;
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1500px)
+{
+    #titleglyph
+    {
+        transform: translateY(200%);
+    }
+    #titleh2{
+        transform: translateY(400%);
+    }
+    .controlbox
+    {
+        margin-right: 15px;
+    }
+}
